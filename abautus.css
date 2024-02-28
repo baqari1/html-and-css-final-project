@@ -1,0 +1,404 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 1440px;
+    height: 2892px;
+    background: linear-gradient(180deg, #060307 23.04%, #090A26 55.93%);
+
+    
+
+}
+
+.img1{
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+}
+.div1{
+    position: absolute;
+    width: 178px;
+    height: 48px;
+    top: 27px;
+    left: 91px;
+
+}
+.div2{
+    position: absolute;
+    z-index: 5;
+    width: 940px;
+    height: 52px;
+    top: 25px;
+    left: 380.16px;
+    
+}
+.div3{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    position: relative;
+    
+    
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19.5px;
+    position: relative;
+    top: 10px;
+    
+}
+.butt1{
+    width: 150px;
+    height: 52px;
+    padding: 15px, 39px, 15px, 39px;
+    font-weight: 700;
+    font-size: 18px;
+    color: black;
+    position: relative;
+    left: 20px;
+}
+.div4{
+    position: relative;
+    left: 50px;
+    top: 10px;
+    
+}
+.img2{
+    position: relative;
+    right: 20px;
+}
+.a1{text-align: center;
+    width: 70px;
+    height: 30px;
+    border-bottom: 3px solid white;
+}
+.div32{
+    width: 350px;
+    height: 467px;
+    position: absolute;
+    z-index: 1;
+    top: 235px;
+    left: 852px;
+    color: white;
+    font-size: 18px;
+    line-height: 38px;
+}
+.butt4{
+    padding: 13px 33px 13px 33px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    background-color: #5604AD;
+    color: white;
+    border: none;
+    position: relative;
+    top: 40px;
+}
+.div33{
+    position: absolute;
+    width: 1420px;
+    height: 1074px;
+    top: 1164px;
+}
+.img8{
+    position: relative;
+    top: 119px;
+    width: 1440px;
+    height: 955px;
+}
+.div33 h2{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.26px;
+    position: relative;
+    left: 119px;
+    color: white;
+    width: 600px;
+    
+}
+.div34{
+    width: 350px;
+    height: 467px;
+    position: absolute;
+    z-index: 1;
+    top: 235px;
+    left: 119px;
+    color:#FFFFFF;
+    font-size: 18px;
+    line-height: 38px;
+}
+.butt5{
+    padding: 13px 33px 13px 33px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    background-color: #5604AD;
+    color: white;
+    border: none;
+    position: relative;
+    
+
+}
+.div23{
+    border-top: 1px solid #502356 ;
+    width: 1439px;
+    height: 497px;
+    position: relative;
+    top: 1370px;
+}
+.div24{
+    position: relative;
+    width: 391px;
+    height: 181px;
+    top: 120px;
+    left: 120px;
+    
+    color: white;
+}
+.img4{
+    position: relative;
+    width: 91px;
+    height: 48px;
+    right: 14px;
+    padding-bottom: 20px;
+}
+.img5{
+    position: relative;
+    top: 30px;
+}
+.img6{
+    position: relative;
+    top: 30px;
+    left: 10px;
+}
+.img7{
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+.div25{
+    position: relative;
+    width: 650px;
+    height: 210px;
+    left: 670px;
+    bottom: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+.div26{
+    color: white;
+}
+.div26 h3{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.div26 p{
+    padding-top: 10px;
+    color: gray;
+    
+}
+.div27{
+    width: 1436px;
+    border: 1px solid #502356;
+}
+.div28{
+    position: relative;
+    color: white;
+    top: 40px;
+    left: 100px;
+    font-size: 14px;
+    width: 400px;
+}
+.div29{
+    position: relative;
+    color: white;
+    top: 10px;
+    left: 800px;
+    font-size: 14px;
+    width: 200px;
+}
+.div30{
+    position: relative;
+    color: white;
+   bottom: 15px;
+    left: 1100px;
+    font-size: 14px;
+    width: 200px;
+
+}
+.div31{
+    position: relative;
+    color: white;
+   bottom: 40px;
+    left: 1330px;
+    width: 100px;
+    
+
+}
+@media(max-width: 390PX) {
+    body{
+        width: 100%;
+    }
+    .img1{
+        width: 100%;
+        height: 450px;
+    }
+    .div1{
+        position: absolute;
+        width: 50px;
+        height: 10px;
+        top: 10px;
+    }
+    .div2{
+        position: absolute;
+        z-index: 5;
+        top: 40px;
+        left:0px;
+        
+    }
+    .div3{
+        display: flex;
+        flex-wrap: wrap;
+        width: 390px;
+        position: relative; 
+        height: 20px;
+    }
+    .butt1{
+        position: relative;
+        bottom: 20px;
+        width: 100px;
+        height: 40px;
+    }
+    .div4{
+        position: relative;
+        top: 5px;
+        
+    }
+    .div2{
+        position: absolute;
+        z-index: 5;
+        width: 380px;
+        height: 52px;
+        top: 30px;
+        left: 0px;
+        
+    }
+    .div32{
+        width: 350px;
+        height: 500px;
+        position: absolute;
+        z-index: 1;
+        top: 460px;
+        left: 5px;
+        color: white;
+        font-size: 18px;
+        line-height: 38px;
+    }
+    .div33{
+        position: absolute;
+        width: 390px;
+        height: 1074px;
+        top: 1164px;
+    }
+    .div33 h2{
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 29.26px;
+        position: relative;
+        left: 5px;
+        color: white;
+        width: 390px;
+        
+    }
+    .img8{
+        position: relative;
+        top: 119px;
+        width: 390px;
+        height: 400px;
+    }
+    .div34{
+        width: 350px;
+        height: 400px;
+        position: absolute;
+        z-index: 1;
+        top: 550px;
+        left:5px;
+        color:#FFFFFF;
+        font-size: 18px;
+        line-height: 38px;
+    }
+   
+        .div23{
+            border-top: 1px solid #502356 ;
+            width: 390px;
+            height: 497px;
+            position: relative;
+            top: 1924px;
+        }
+        .div24{
+            position: relative;
+            width: 350px;
+            height: 181px;
+            color: white;
+            left: 10px;
+            top: 10px;
+        }
+        .div25{
+            position: relative;
+            width: 350px;
+            height: 210px;
+            left: 10px;
+            top: 10px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+    
+        }
+        .div27{
+            width: 390px;
+            border: 1px solid #502356;
+        }
+        .div28{
+            position: relative;
+            color: white;
+            top: 5px;
+            left: 10px;
+            font-size: 11px;
+        }
+        .div29{
+            position: relative;
+            color: white;
+            top: 15px;
+            left: 10px;
+            font-size: 11px;
+            width: 200px;
+        }
+        .div30{
+            position: relative;
+            color: white;
+            left: 10px;
+            font-size: 11px;
+            width: 200px;
+            top: 25px;
+        
+        }
+        .div31{
+            position: relative;
+            color: white;
+           bottom: 40px;
+            left: 10px;
+            width: 200px;
+            font-size: 11px;
+            top: 30px;
+        
+        }
+    
+    
+    
+}
